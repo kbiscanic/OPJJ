@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2013-04-13T15:54:48.033">
+<file name="src/main/java/hr/fer/zemris/java/tecaj_3/AboveAverage.java">
+<violation beginline="15" endline="67" begincolumn="0" endcolumn="0" rule="UseSingleton" ruleset="Design Rules" package="hr.fer.zemris.java.tecaj_3" class="AboveAverage" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UseSingleton" priority="3">
+All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="29" endline="65" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="AboveAverage" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reader' (lines '29'-'65').
+</violation>
+<violation beginline="29" endline="30" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="AboveAverage" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'reader' could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="AboveAverage" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'list' could be declared final
+</violation>
+<violation beginline="34" endline="36" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="AboveAverage" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'line' (lines '34'-'36').
+</violation>
+<violation beginline="34" endline="65" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="AboveAverage" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'line' (lines '34'-'65').
+</violation>
+<violation beginline="50" endline="52" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="AboveAverage" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'cnt' (lines '50'-'52').
+</violation>
+<violation beginline="52" endline="52" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="AboveAverage" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'cnt' (lines '52'-'52').
+</violation>
+<violation beginline="61" endline="61" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="hr.fer.zemris.java.tecaj_3" class="AboveAverage" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+</file>
+<file name="src/main/java/hr/fer/zemris/java/tecaj_3/LikeMedian.java">
+<violation beginline="18" endline="18" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="hr.fer.zemris.java.tecaj_3" class="LikeMedian" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="18" endline="18" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="hr.fer.zemris.java.tecaj_3" class="LikeMedian" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'list' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="19" endline="19" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="hr.fer.zemris.java.tecaj_3" class="LikeMedian" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="37" endline="37" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="LikeMedian" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'object' is not assigned and could be declared final
+</violation>
+<violation beginline="52" endline="52" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="hr.fer.zemris.java.tecaj_3" class="LikeMedian" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like o1
+</violation>
+<violation beginline="52" endline="52" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="hr.fer.zemris.java.tecaj_3" class="LikeMedian" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like o2
+</violation>
+<violation beginline="52" endline="52" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="LikeMedian" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'o1' is not assigned and could be declared final
+</violation>
+<violation beginline="52" endline="52" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="LikeMedian" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'o2' is not assigned and could be declared final
+</violation>
+</file>
+<file name="src/main/java/hr/fer/zemris/java/tecaj_3/Names.java">
+<violation beginline="19" endline="121" begincolumn="0" endcolumn="0" rule="UseSingleton" ruleset="Design Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UseSingleton" priority="3">
+All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="31" endline="32" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="33" endline="33" begincolumn="0" endcolumn="0" rule="DoNotCallSystemExit" ruleset="J2EE Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/j2ee.html#DoNotCallSystemExit" priority="3">
+System.exit() should not be used in J2EE/JEE apps
+</violation>
+<violation beginline="36" endline="36" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'file1' could be declared final
+</violation>
+<violation beginline="37" endline="37" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'file2' could be declared final
+</violation>
+<violation beginline="39" endline="39" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'file1Set' could be declared final
+</violation>
+<violation beginline="40" endline="50" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'file2Set' (lines '40'-'50').
+</violation>
+<violation beginline="40" endline="40" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'file2Set' could be declared final
+</violation>
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="59" endline="59" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'filename' is not assigned and could be declared final
+</violation>
+<violation beginline="60" endline="60" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like br
+</violation>
+<violation beginline="60" endline="63" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'br' (lines '60'-'63').
+</violation>
+<violation beginline="67" endline="67" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="68" endline="68" begincolumn="0" endcolumn="0" rule="DoNotCallSystemExit" ruleset="J2EE Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/j2ee.html#DoNotCallSystemExit" priority="3">
+System.exit() should not be used in J2EE/JEE apps
+</violation>
+<violation beginline="70" endline="70" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="71" endline="71" begincolumn="0" endcolumn="0" rule="DoNotCallSystemExit" ruleset="J2EE Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/j2ee.html#DoNotCallSystemExit" priority="3">
+System.exit() should not be used in J2EE/JEE apps
+</violation>
+<violation beginline="84" endline="84" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'file' is not assigned and could be declared final
+</violation>
+<violation beginline="85" endline="85" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'set' could be declared final
+</violation>
+<violation beginline="87" endline="90" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'line' (lines '87'-'90').
+</violation>
+<violation beginline="87" endline="105" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'line' (lines '87'-'105').
+</violation>
+<violation beginline="92" endline="92" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="93" endline="93" begincolumn="0" endcolumn="0" rule="DoNotCallSystemExit" ruleset="J2EE Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/j2ee.html#DoNotCallSystemExit" priority="3">
+System.exit() should not be used in J2EE/JEE apps
+</violation>
+<violation beginline="113" endline="113" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'file' is not assigned and could be declared final
+</violation>
+<violation beginline="118" endline="118" begincolumn="0" endcolumn="0" rule="DoNotCallSystemExit" ruleset="J2EE Rules" package="hr.fer.zemris.java.tecaj_3" class="Names" externalInfoUrl="http://pmd.sourceforge.net/rules/j2ee.html#DoNotCallSystemExit" priority="3">
+System.exit() should not be used in J2EE/JEE apps
+</violation>
+</file>
+<file name="src/main/java/hr/fer/zemris/java/tecaj_3/NamesCounter.java">
+<violation beginline="16" endline="59" begincolumn="0" endcolumn="0" rule="UseSingleton" ruleset="Design Rules" package="hr.fer.zemris.java.tecaj_3" class="NamesCounter" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UseSingleton" priority="3">
+All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="28" endline="28" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="NamesCounter" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="29" endline="57" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="NamesCounter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reader' (lines '29'-'57').
+</violation>
+<violation beginline="29" endline="30" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="NamesCounter" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'reader' could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="NamesCounter" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'map' could be declared final
+</violation>
+<violation beginline="34" endline="36" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="NamesCounter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'line' (lines '34'-'36').
+</violation>
+<violation beginline="34" endline="57" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="NamesCounter" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'line' (lines '34'-'57').
+</violation>
+<violation beginline="45" endline="45" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="NamesCounter" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'cnt' could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="hr.fer.zemris.java.tecaj_3" class="NamesCounter" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+</file>
+<file name="src/main/java/hr/fer/zemris/java/tecaj_3/NoDupLines.java">
+<violation beginline="18" endline="73" begincolumn="0" endcolumn="0" rule="UseSingleton" ruleset="Design Rules" package="hr.fer.zemris.java.tecaj_3" class="NoDupLines" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UseSingleton" priority="3">
+All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="30" endline="30" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="NoDupLines" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="31" endline="51" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="NoDupLines" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'reader' (lines '31'-'51').
+</violation>
+<violation beginline="31" endline="32" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="NoDupLines" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'reader' could be declared final
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="NoDupLines" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'list' could be declared final
+</violation>
+<violation beginline="36" endline="38" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="NoDupLines" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'line' (lines '36'-'38').
+</violation>
+<violation beginline="36" endline="51" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="NoDupLines" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'line' (lines '36'-'51').
+</violation>
+<violation beginline="49" endline="49" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="NoDupLines" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'array' could be declared final
+</violation>
+<violation beginline="49" endline="49" begincolumn="0" endcolumn="0" rule="OptimizableToArrayCall" ruleset="Design Rules" package="hr.fer.zemris.java.tecaj_3" class="NoDupLines" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#OptimizableToArrayCall" priority="3">
+This call to Collection.toArray() may be optimizable
+</violation>
+<violation beginline="59" endline="59" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="NoDupLines" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="60" endline="60" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="NoDupLines" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'set' could be declared final
+</violation>
+<violation beginline="65" endline="65" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="NoDupLines" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'list' could be declared final
+</violation>
+<violation beginline="69" endline="69" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="hr.fer.zemris.java.tecaj_3" class="NoDupLines" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+</file>
+<file name="src/main/java/hr/fer/zemris/java/tecaj_3/Pointer.java">
+<violation beginline="19" endline="19" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="Pointer" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'object' is not assigned and could be declared final
+</violation>
+<violation beginline="39" endline="39" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="Pointer" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'object' is not assigned and could be declared final
+</violation>
+</file>
+<file name="src/main/java/hr/fer/zemris/java/tecaj_3/PrimesCollection.java">
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollection" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="ImmutableField" ruleset="Design Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollection" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#ImmutableField" priority="3">
+Private field 'numberOfPrimes' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="24" endline="24" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollection" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'numberOfPrimes' is not assigned and could be declared final
+</violation>
+<violation beginline="43" endline="43" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollection" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollection" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="89" endline="89" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollection" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'current' is not assigned and could be declared final
+</violation>
+<violation beginline="90" endline="90" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollection" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'limit' could be declared final
+</violation>
+<violation beginline="93" endline="93" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollection" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+<file name="src/main/java/hr/fer/zemris/java/tecaj_3/PrimjerSkupa.java">
+<violation beginline="16" endline="111" begincolumn="0" endcolumn="0" rule="UseSingleton" ruleset="Design Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimjerSkupa" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UseSingleton" priority="3">
+All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="24" endline="24" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimjerSkupa" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimjerSkupa" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="27" endline="27" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimjerSkupa" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="29" endline="29" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimjerSkupa" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="31" endline="31" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimjerSkupa" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="33" endline="33" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimjerSkupa" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="44" endline="44" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimjerSkupa" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'col' is not assigned and could be declared final
+</violation>
+<violation beginline="57" endline="57" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimjerSkupa" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'col' is not assigned and could be declared final
+</violation>
+<violation beginline="58" endline="58" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimjerSkupa" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'iterator' could be declared final
+</violation>
+<violation beginline="72" endline="72" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimjerSkupa" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'polje' is not assigned and could be declared final
+</violation>
+<violation beginline="73" endline="73" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimjerSkupa" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'set' could be declared final
+</violation>
+<violation beginline="88" endline="88" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimjerSkupa" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'polje' is not assigned and could be declared final
+</violation>
+<violation beginline="89" endline="89" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimjerSkupa" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'set' could be declared final
+</violation>
+<violation beginline="105" endline="105" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimjerSkupa" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'set' could be declared final
+</violation>
+</file>
+<file name="src/main/java/hr/fer/zemris/java/tecaj_3/ProbaPointera.java">
+<violation beginline="9" endline="38" begincolumn="0" endcolumn="0" rule="UseSingleton" ruleset="Design Rules" package="hr.fer.zemris.java.tecaj_3" class="ProbaPointera" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UseSingleton" priority="3">
+All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="ProbaPointera" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="ProbaPointera" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'pBroj1' could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="hr.fer.zemris.java.tecaj_3" class="ProbaPointera" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="24" endline="24" begincolumn="0" endcolumn="0" rule="SystemPrintln" ruleset="Java Logging Rules" package="hr.fer.zemris.java.tecaj_3" class="ProbaPointera" externalInfoUrl="http://pmd.sourceforge.net/rules/logging-java.html#SystemPrintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="34" endline="34" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="ProbaPointera" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'pBroj1' is not assigned and could be declared final
+</violation>
+</file>
+<file name="src/test/java/hr/fer/zemris/java/tecaj_3/LikeMedianTest.java">
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="LikeMedianTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'likeMedian' could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="0" endcolumn="0" rule="IntegerInstantiation" ruleset="Migration Rules" package="hr.fer.zemris.java.tecaj_3" class="LikeMedianTest" externalInfoUrl="http://pmd.sourceforge.net/rules/migrating.html#IntegerInstantiation" priority="2">
+Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="IntegerInstantiation" ruleset="Migration Rules" package="hr.fer.zemris.java.tecaj_3" class="LikeMedianTest" externalInfoUrl="http://pmd.sourceforge.net/rules/migrating.html#IntegerInstantiation" priority="2">
+Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+</violation>
+<violation beginline="14" endline="14" begincolumn="0" endcolumn="0" rule="IntegerInstantiation" ruleset="Migration Rules" package="hr.fer.zemris.java.tecaj_3" class="LikeMedianTest" externalInfoUrl="http://pmd.sourceforge.net/rules/migrating.html#IntegerInstantiation" priority="2">
+Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="IntegerInstantiation" ruleset="Migration Rules" package="hr.fer.zemris.java.tecaj_3" class="LikeMedianTest" externalInfoUrl="http://pmd.sourceforge.net/rules/migrating.html#IntegerInstantiation" priority="2">
+Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+</violation>
+</file>
+<file name="src/test/java/hr/fer/zemris/java/tecaj_3/PrimesCollectionTest.java">
+<violation beginline="12" endline="12" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollectionTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'primCol' could be declared final
+</violation>
+<violation beginline="13" endline="16" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollectionTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'sol' (lines '13'-'16').
+</violation>
+<violation beginline="14" endline="14" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollectionTest" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like i
+</violation>
+<violation beginline="14" endline="21" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollectionTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'i' (lines '14'-'21').
+</violation>
+<violation beginline="16" endline="16" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollectionTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'sol' (lines '16'-'16').
+</violation>
+<violation beginline="17" endline="21" begincolumn="0" endcolumn="0" rule="DataflowAnomalyAnalysis" ruleset="Controversial Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollectionTest" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DU'-anomaly for variable 'i' (lines '17'-'21').
+</violation>
+<violation beginline="19" endline="19" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollectionTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'expected' could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollectionTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'primCol' could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollectionTest" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like it
+</violation>
+<violation beginline="26" endline="26" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="hr.fer.zemris.java.tecaj_3" class="PrimesCollectionTest" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'it' could be declared final
+</violation>
+</file>
+</pmd>

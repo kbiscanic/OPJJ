@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FER</string>
+    <string name="enter_phone_no">Unesite broj:</string>
+    <string name="call_phone">Telefon</string>
+    <string name="call">Nazovi</string>
+    <string name="show_contacts">Prikaži kontakte</string>
+    <string name="do_you_want_to_call">Želite li nazvati broj: %s ?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Odustani</string>
+    <string name="camera">Kamera</string>
+    <string name="list">Lista</string>
+    <string name="details">Detalji</string>
+    <string name="assets">Assets</string>
+
+</resources>

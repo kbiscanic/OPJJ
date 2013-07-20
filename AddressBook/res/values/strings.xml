@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AddressBook</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add">Dodaj</string>
+    <string name="profile">Profil</string>
+    <string name="desc"></string>
+    <string name="call">Nazovi</string>
+    <string name="fbp">Facebook profile</string>
+    <string name="name">Ime</string>
+    <string name="phone">Broj</string>
+    <string name="email">Email</string>
+    <string name="save">Spremi</string>
+    <string name="cancel">Odustani</string>
+
+</resources>

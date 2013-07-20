@@ -1,0 +1,111 @@
+
+src/main/java/hr/fer/zemris/java/tecaj_3/AboveAverage.java:15	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/hr/fer/zemris/java/tecaj_3/AboveAverage.java:29	Found 'DU'-anomaly for variable 'reader' (lines '29'-'65').
+src/main/java/hr/fer/zemris/java/tecaj_3/AboveAverage.java:29	Local variable 'reader' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/AboveAverage.java:32	Local variable 'list' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/AboveAverage.java:34	Found 'DD'-anomaly for variable 'line' (lines '34'-'36').
+src/main/java/hr/fer/zemris/java/tecaj_3/AboveAverage.java:34	Found 'DU'-anomaly for variable 'line' (lines '34'-'65').
+src/main/java/hr/fer/zemris/java/tecaj_3/AboveAverage.java:50	Found 'DD'-anomaly for variable 'cnt' (lines '50'-'52').
+src/main/java/hr/fer/zemris/java/tecaj_3/AboveAverage.java:52	Found 'DD'-anomaly for variable 'cnt' (lines '52'-'52').
+src/main/java/hr/fer/zemris/java/tecaj_3/AboveAverage.java:61	System.out.print is used
+src/main/java/hr/fer/zemris/java/tecaj_3/LikeMedian.java:18	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/hr/fer/zemris/java/tecaj_3/LikeMedian.java:18	Private field 'list' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/hr/fer/zemris/java/tecaj_3/LikeMedian.java:19	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/hr/fer/zemris/java/tecaj_3/LikeMedian.java:37	Parameter 'object' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/LikeMedian.java:52	Avoid variables with short names like o1
+src/main/java/hr/fer/zemris/java/tecaj_3/LikeMedian.java:52	Avoid variables with short names like o2
+src/main/java/hr/fer/zemris/java/tecaj_3/LikeMedian.java:52	Parameter 'o1' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/LikeMedian.java:52	Parameter 'o2' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:19	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:28	Parameter 'args' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:31	System.out.print is used
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:33	System.exit() should not be used in J2EE/JEE apps
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:36	Local variable 'file1' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:37	Local variable 'file2' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:39	Local variable 'file1Set' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:40	Found 'DU'-anomaly for variable 'file2Set' (lines '40'-'50').
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:40	Local variable 'file2Set' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:44	System.out.print is used
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:59	Parameter 'filename' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:60	Avoid variables with short names like br
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:60	Found 'DD'-anomaly for variable 'br' (lines '60'-'63').
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:67	System.out.print is used
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:68	System.exit() should not be used in J2EE/JEE apps
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:70	System.out.print is used
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:71	System.exit() should not be used in J2EE/JEE apps
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:84	Parameter 'file' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:85	Local variable 'set' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:87	Found 'DD'-anomaly for variable 'line' (lines '87'-'90').
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:87	Found 'DU'-anomaly for variable 'line' (lines '87'-'105').
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:92	System.out.print is used
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:93	System.exit() should not be used in J2EE/JEE apps
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:113	Parameter 'file' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/Names.java:118	System.exit() should not be used in J2EE/JEE apps
+src/main/java/hr/fer/zemris/java/tecaj_3/NamesCounter.java:16	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/hr/fer/zemris/java/tecaj_3/NamesCounter.java:28	Parameter 'args' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/NamesCounter.java:29	Found 'DU'-anomaly for variable 'reader' (lines '29'-'57').
+src/main/java/hr/fer/zemris/java/tecaj_3/NamesCounter.java:29	Local variable 'reader' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/NamesCounter.java:32	Local variable 'map' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/NamesCounter.java:34	Found 'DD'-anomaly for variable 'line' (lines '34'-'36').
+src/main/java/hr/fer/zemris/java/tecaj_3/NamesCounter.java:34	Found 'DU'-anomaly for variable 'line' (lines '34'-'57').
+src/main/java/hr/fer/zemris/java/tecaj_3/NamesCounter.java:45	Local variable 'cnt' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/NamesCounter.java:54	System.out.print is used
+src/main/java/hr/fer/zemris/java/tecaj_3/NoDupLines.java:18	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/hr/fer/zemris/java/tecaj_3/NoDupLines.java:30	Parameter 'args' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/NoDupLines.java:31	Found 'DU'-anomaly for variable 'reader' (lines '31'-'51').
+src/main/java/hr/fer/zemris/java/tecaj_3/NoDupLines.java:31	Local variable 'reader' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/NoDupLines.java:34	Local variable 'list' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/NoDupLines.java:36	Found 'DD'-anomaly for variable 'line' (lines '36'-'38').
+src/main/java/hr/fer/zemris/java/tecaj_3/NoDupLines.java:36	Found 'DU'-anomaly for variable 'line' (lines '36'-'51').
+src/main/java/hr/fer/zemris/java/tecaj_3/NoDupLines.java:49	Local variable 'array' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/NoDupLines.java:49	This call to Collection.toArray() may be optimizable
+src/main/java/hr/fer/zemris/java/tecaj_3/NoDupLines.java:59	Parameter 'args' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/NoDupLines.java:60	Local variable 'set' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/NoDupLines.java:65	Local variable 'list' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/NoDupLines.java:69	System.out.print is used
+src/main/java/hr/fer/zemris/java/tecaj_3/Pointer.java:19	Parameter 'object' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/Pointer.java:39	Parameter 'object' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimesCollection.java:15	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimesCollection.java:15	Private field 'numberOfPrimes' could be made final; it is only initialized in the declaration or constructor.
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimesCollection.java:24	Parameter 'numberOfPrimes' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimesCollection.java:43	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimesCollection.java:44	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimesCollection.java:89	Parameter 'current' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimesCollection.java:90	Local variable 'limit' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimesCollection.java:93	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimjerSkupa.java:16	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimjerSkupa.java:24	Parameter 'args' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimjerSkupa.java:25	System.out.print is used
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimjerSkupa.java:27	System.out.print is used
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimjerSkupa.java:29	System.out.print is used
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimjerSkupa.java:31	System.out.print is used
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimjerSkupa.java:33	System.out.print is used
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimjerSkupa.java:44	Parameter 'col' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimjerSkupa.java:57	Parameter 'col' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimjerSkupa.java:58	Local variable 'iterator' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimjerSkupa.java:72	Parameter 'polje' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimjerSkupa.java:73	Local variable 'set' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimjerSkupa.java:88	Parameter 'polje' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimjerSkupa.java:89	Local variable 'set' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/PrimjerSkupa.java:105	Local variable 'set' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/ProbaPointera.java:9	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/hr/fer/zemris/java/tecaj_3/ProbaPointera.java:17	Parameter 'args' is not assigned and could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/ProbaPointera.java:20	Local variable 'pBroj1' could be declared final
+src/main/java/hr/fer/zemris/java/tecaj_3/ProbaPointera.java:21	System.out.print is used
+src/main/java/hr/fer/zemris/java/tecaj_3/ProbaPointera.java:24	System.out.print is used
+src/main/java/hr/fer/zemris/java/tecaj_3/ProbaPointera.java:34	Parameter 'pBroj1' is not assigned and could be declared final
+src/test/java/hr/fer/zemris/java/tecaj_3/LikeMedianTest.java:11	Local variable 'likeMedian' could be declared final
+src/test/java/hr/fer/zemris/java/tecaj_3/LikeMedianTest.java:12	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/test/java/hr/fer/zemris/java/tecaj_3/LikeMedianTest.java:13	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/test/java/hr/fer/zemris/java/tecaj_3/LikeMedianTest.java:14	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/test/java/hr/fer/zemris/java/tecaj_3/LikeMedianTest.java:15	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+src/test/java/hr/fer/zemris/java/tecaj_3/PrimesCollectionTest.java:12	Local variable 'primCol' could be declared final
+src/test/java/hr/fer/zemris/java/tecaj_3/PrimesCollectionTest.java:13	Found 'DD'-anomaly for variable 'sol' (lines '13'-'16').
+src/test/java/hr/fer/zemris/java/tecaj_3/PrimesCollectionTest.java:14	Avoid variables with short names like i
+src/test/java/hr/fer/zemris/java/tecaj_3/PrimesCollectionTest.java:14	Found 'DU'-anomaly for variable 'i' (lines '14'-'21').
+src/test/java/hr/fer/zemris/java/tecaj_3/PrimesCollectionTest.java:16	Found 'DD'-anomaly for variable 'sol' (lines '16'-'16').
+src/test/java/hr/fer/zemris/java/tecaj_3/PrimesCollectionTest.java:17	Found 'DU'-anomaly for variable 'i' (lines '17'-'21').
+src/test/java/hr/fer/zemris/java/tecaj_3/PrimesCollectionTest.java:19	Local variable 'expected' could be declared final
+src/test/java/hr/fer/zemris/java/tecaj_3/PrimesCollectionTest.java:25	Local variable 'primCol' could be declared final
+src/test/java/hr/fer/zemris/java/tecaj_3/PrimesCollectionTest.java:26	Avoid variables with short names like it
+src/test/java/hr/fer/zemris/java/tecaj_3/PrimesCollectionTest.java:26	Local variable 'it' could be declared final
